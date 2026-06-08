@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="frontend_layout" inherit_id="web.frontend_layout">
+        <xpath expr="//a[hasclass('o_frontend_to_backend_apps_btn')]" position="attributes">
+            <attribute name="data-bs-toggle"/>
+            <attribute name="href">/odoo</attribute>
+        </xpath>
+    </template>
+</odoo>
